@@ -1,14 +1,16 @@
+import { NavLink } from "react-router-dom";
+
 export default function Nav() {
   return (
       <nav> 
       <div>
-
-        <h3>Lamps</h3>
-
+        <NavLink to="lamps">
+          <h3>Lamps</h3>
+        </NavLink>
   
-
-        <h3>Candles</h3>
- 
+        <NavLink to="candles">
+          <h3>Candles</h3>
+        </NavLink>
       </div>
     </nav>
   );
