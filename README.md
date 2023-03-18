@@ -105,7 +105,7 @@ Next, let's define the area that will display the views. We are going to be swap
 
 ## Make Separate Views For Pages
 
-We'll use the `Route` component that will wrap around the views we want to create. We'll pass in our components as `element` props. `element` is a keyword that belonds to react router. Additonally, we have to specifiy the `path`, so that when the URL matches, the view we've created will be visible.
+We'll use the `Route` component that will wrap around the views we want to create. We'll pass in our components as `element` props. `element` is a keyword that belongs to react router. Additonally, we have to specifiy the `path`, so that when the URL matches, the view we've created will be visible.
 
 This is an empty route component:
 
@@ -310,7 +310,7 @@ There is a page called newsletter.
 
 Add a view for it at `/newsletter`
 
-When the button on that page is pressed make it redicect to the `about` page.
+When the button on that page is pressed, make it redicect to the `about` page.
 
 ## Super Bonus
 
